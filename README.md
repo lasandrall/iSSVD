@@ -13,6 +13,8 @@ _Inputs_:
  
  **size**: Size of the subsamples used to perform stability selection.
  
+ **vthr**: The proportion to be explained by eigenvalues.
+ 
  **ssthr**: Range of the threshold for stability selection.
  
  **nbicluster**: A user specified number of biclusters to be detected.
