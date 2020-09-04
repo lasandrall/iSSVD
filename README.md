@@ -49,3 +49,5 @@ _Outputs_:
  **Variable_index**: The indices of bicluster variables. 
  
  **Iterations:** The interations run for each bicluster.
+ 
+ Please check https://github.com/weijie25/iSSVD/blob/master/iSSVD/Guide.md for a simple guide.
