@@ -51,3 +51,6 @@ _Outputs_:
  **Iterations:** The interations run for each bicluster.
  
  Please check https://github.com/weijie25/iSSVD/blob/master/iSSVD/Guide.md for a simple guide.
+ 
+ *Reference*
+ Weijie Zhang and Sandra E. Safo. "Robust Integrative Biclustering for Multi-view Data." *Bioinformatics* submitted (2020).
