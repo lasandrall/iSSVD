@@ -1,4 +1,4 @@
-### iSSVD - Intergrative Biclustering for Multi-view data
+### iSSVD - Intergrative Biclustering for Multi-view data with nested stability selection
 
 
 _Inputs_:
