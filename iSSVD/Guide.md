@@ -170,11 +170,3 @@ sns.heatmap(new_df[0],ax=axesn[1])
 ![png](Guide_files/Guide_16_1.png)
 
 
-
-```python
-! jupyter nbconvert --to html Guide.ipynb
-```
-
-    [NbConvertApp] Converting notebook Guide.ipynb to html
-    [NbConvertApp] Writing 613650 bytes to Guide.html
-    
