@@ -11,7 +11,7 @@ from issvd_functions import issvd, issvd_diagnostics, gen_sim_vec, gen_tmp
 from numpy.random import seed
 ```
 
-First generate example data. Here we generate one group of data that contains two views, each has dimension $200\times1,000$. We have four artificical biclusters in the data while each biclsuter contains $50$ samples and $100+100$ (100 for each view) variables. There is no overlaps between biclsuters. The noise level $\sigma$ is 0.1.
+First generate example data. Here we generate one group of data that contains two views, each has dimension 200 x 1,000. We have four artificical biclusters in the data while each biclsuter contains 50 samples and 100+100 (100 for each view) variables. There is no overlaps between biclsuters. The noise level sigma is 0.1.
 
 
 ```python
