@@ -1,7 +1,7 @@
 
 **iSSVD** is the algorithm developed for 'Robust Intergrative Biclustering for Multi-view Data'. It is based on sparse singular value decompostion (Lee et al. 2010) and stability selection (Meinshausen and Bühlmann, 2010 and Sill et al., 2011).
 
-This is a simple guide to show how to use the python package 'iSSVD'.
+This is a simple guide to show how to use the python package 'iSSVD' (Weijie Zhang and Sandra E. Safo. "Robust Integrative Biclustering for Multi-view Data." *Bioinformatics* submitted, 2020).
 
 
 ```python
