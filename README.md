@@ -4,36 +4,36 @@
 _Inputs_:
 
  **X**: A list contains multi-view data.
-
- **standr**: If True each view will to be standardized.
  
- **pointwise**: If True a fast pointwise control method will be performed for stability selection.
+ **standr**: If True each view will to be standardized. Default: False.
  
- **steps**: Number of subsmaples used to perform stability selection.
+ **pointwise**: If True a fast pointwise control method will be performed for stability selection. Default: True.
  
- **size**: Size of the subsamples used to perform stability selection.
+ **steps**: Number of subsmaples used to perform stability selection. Default: 100.
  
- **vthr**: The proportion to be explained by eigenvalues.
+ **size**: Size of the subsamples used to perform stability selection. Default: 0.5.
  
- **ssthr**: Range of the threshold for stability selection.
+ **vthr**: The proportion to be explained by eigenvalues. Default: 0.7.
  
- **nbicluster**: A user specified number of biclusters to be detected.
+ **ssthr**: Range of the threshold for stability selection. Default: \[0.6, 0.8\].
  
- **rows_nc**: If True allows for negative correlation of rows over columns.
+ **nbicluster**: A user specified number of biclusters to be detected. Default: 10.
  
- **cols_nc**: If True allows for negative correlation of columns over rows.
+ **rows_nc**: If True allows for negative correlation of rows over columns. Default: True.
  
- **col_overlap**: If Ture allows for columns overlaps among biclusters.
+ **cols_nc**: If True allows for negative correlation of columns over rows. Default: True.
  
- **row_overlap**: If Ture allows for rows overlaps among biclusters.
+ **col_overlap**: If True allows for columns overlaps among biclusters. Default: False.
  
- **pceru**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the left singular vectors.
+ **row_overlap**: If True allows for rows overlaps among biclusters. Default: False.
  
- **pcerv**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the right singular vector.
+ **pceru**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the left singular vectors. Default: 0.1.
  
- **merr**: Convergence threshold.
+ **pcerv**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the right singular vector. Default: 0.1.
  
- **iters**: Maximal iteration for detecting each bicluster.
+ **merr**: Convergence threshold. Default: 1e-4.
+ 
+ **iters**: Maximal iteration for detecting each bicluster. Default: 100.
  
  
 _Outputs_:
