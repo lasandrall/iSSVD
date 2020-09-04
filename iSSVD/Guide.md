@@ -7,7 +7,7 @@ This is a simple guide to show how to use the python package 'iSSVD' (Weijie Zha
 ```python
 import pandas as pd
 import numpy as np
-from issvd_functions import issvd, issvd_diagnostics, gen_sim_vec, gen_tmp
+from iSSVD.functions import issvd, issvd_diagnostics, gen_sim_vec, gen_tmp
 from numpy.random import seed
 ```
 
