@@ -169,6 +169,4 @@ sns.heatmap(new_df[0],ax=axesn[1])
 
 
 
-```python
-! jupyter nbconvert --to pdf Guide.ipynb
-```
+
