@@ -53,4 +53,4 @@ _Outputs_:
  Please check https://github.com/weijie25/iSSVD/blob/master/iSSVD/Guide.md for a simple guide.
  
  *Reference*
- Weijie Zhang and Sandra E. Safo. "Robust Integrative Biclustering for Multi-view Data." *Bioinformatics* submitted (2020).
+ Weijie Zhang and Sandra E. Safo. "Robust Integrative Biclustering for Multi-view Data." Submitted (2020).
