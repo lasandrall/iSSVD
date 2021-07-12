@@ -29,7 +29,7 @@ _Inputs_:
  
  **pceru**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the left singular vectors. Default: 0.1.
  
- **pcerv**: Per-comparrison wise error rate to control the number of falsely selected coefficients in the right singular vector. Default: 0.1.
+ **pcerv**: A vector with a length of the number of views. Per-comparrison wise error rate to control the number of falsely selected coefficients in the right singular vector of each view. Default: 0.1.
  
  **merr**: Convergence threshold. Default: 1e-4.
  
